@@ -25,6 +25,11 @@ function App() {
             <NotesList notes={notes} setNotes={ setNotes} />
           </Col>
           </Row>
+          <Row>
+          <Col>
+            <CreateNotes />
+          </Col>
+          </Row>
       </Container>
     </>
   );
