@@ -15,7 +15,7 @@ const CreateNotes: React.FunctionComponent<ICreateNotesProps> = (props) => {
       <Form className = "mt-3 mb-3">
         <Form.Group className='mb-3' controlId='formBasicTitle' >
           <Form.Label>Title</Form.Label>
-          <Form.Control type='text' placeholder='Enter title for notes' as="text" ref={titleRef} />
+          <Form.Control type='text' ref={ titleRef} placeholder='Enter title for notes'/>
         </Form.Group>
         <Form.Group className='mb-3' controlId='formBasicTitle' >
           <Form.Label>Text</Form.Label>
